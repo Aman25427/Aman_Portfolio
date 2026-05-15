@@ -1,109 +1,92 @@
-# **💼 Aryaan Portfolio**
+# 💼 Aman Kumar Singhania Portfolio
 
-A modern, visually polished personal portfolio built using **React + Vite**, featuring smooth animations, responsive design, and a clean UI.
-This portfolio highlights my work, experience, skills, and projects in a minimal yet impactful way.
+A modern, high-performance personal portfolio website built using **React + TypeScript + Vite**, designed to showcase my projects, technical skills, work experience, and professional journey through a premium user interface and smooth interactive animations.
 
----
-
-## 🚀 **Tech Stack**
-
-* **React.js**
-* **Vite**
-* **Tailwind CSS**
-* **GSAP Animations**
-* **Lucide Icons**
+This portfolio reflects my passion for building scalable web applications, clean frontend experiences, and AI-powered digital solutions.
 
 ---
 
-## 🎯 **Features**
+## 🚀 Tech Stack
 
-### ✅ Fully Responsive
-
-Looks clean on **mobile, tablet, and desktop**.
-
-### ✅ GSAP Smooth Animations
-
-Scrolling, fade-ins, hover effects — everything feels premium.
-
-### ✅ Clean & Modern UI
-
-Glassmorphism + gradient accents + minimal layout.
-
-### ✅ Downloadable Resume Button
-
-One-click resume download integrated.
-
-### ✅ Portfolio Sections
-
-* About Me
-* Skills
-* Projects
-* Contact
-* Stats section
+- **React.js**
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **GSAP**
+- **Lucide React**
+- **FastAPI**
+- **JavaScript**
 
 ---
 
-## 📸 **Preview**
+## ✨ Features
 
-## 🔥 Portfolio Preview
+### 🎨 Modern Premium UI
+Built with a futuristic dark theme, glassmorphism design, gradient accents, and a clean visual hierarchy for an engaging user experience.
 
-![Portfolio Screenshot](https://github.com/Aryan2005singh/Aryan-Portfolio/blob/ea8a916b4c844933b7276542d4af03eb538da28c/screenshot.png)
+### 📱 Fully Responsive Design
+Optimized for seamless performance across:
 
+- Desktop
+- Tablet
+- Mobile Devices
 
-```
-/assets/preview.png
-```
+### ⚡ Smooth GSAP Animations
+Interactive motion effects including:
+
+- Scroll animations
+- Fade transitions
+- Hover interactions
+- Smooth UI movement
+
+### 👨‍💻 Professional Portfolio Sections
+
+Includes dedicated sections for:
+
+- Hero Landing Section
+- About Me
+- Work Experience
+- Featured Projects
+- Technical Skills
+- Additional Expertise
+- Contact Form
+- Footer Navigation
+
+### 📂 Featured Projects Showcase
+Highlighted project cards with:
+
+- Live Demo Links
+- GitHub Repository Access
+- Technology Stack Overview
+- Project Descriptions
+
+### 📄 Resume Download
+Integrated downloadable resume functionality for recruiters and hiring teams.
+
+### 📬 Contact Integration
+Professional contact section with:
+
+- Email
+- Phone
+- Location
+- Social Media Links
+- Contact Form
+
+### 🚀 Performance Optimized
+Powered by **Vite** for fast development workflow and optimized production deployment.
 
 ---
 
-## 📦 **Installation & Setup**
+## 📸 Portfolio Preview
 
-### Clone the repo:
+![Portfolio Screenshot](https://github.com/Aryan2005singh/Aman-Portfolio/blob/main/screenshot.png)
+
+---
+
+## 📦 Installation & Setup
+
+### Clone Repository
 
 ```bash
-git clone https://github.com/Aryan2005singh/Aryan-Portfolio.git
-cd Aryan-Portfolio
-```
-
-### Install dependencies:
-
-```bash
-npm install
-```
-
-### Run development server:
-
-```bash
-npm run dev
-```
-
-### Build for production:
-
-```bash
-npm run build
-```
-
----
-
-## 🌐 **Live Demo**
-
-*(https://aryanwebfolio.netlify.app/)*
-
----
-
-## 🤝 **Contact**
-
-If you want to collaborate or discuss a project:
-
-* **Email**: aryan70912@gmail.com
-* **GitHub**: [https://github.com/Aryan2005singh](https://github.com/Aryan2005singh)
-* **LinkedIn**: *(https://www.linkedin.com/in/aryan-kumar-5183a4257/)*
-
----
-
-## ⭐ **Support**
-
-If you like this portfolio, consider giving it a **star ⭐ on GitHub**.
-Helps a lot.
-
-
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
+cd YOUR-REPOSITORY-NAME
