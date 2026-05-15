@@ -1,168 +1,107 @@
-# 🚀 Aman Kumar Singhania — Developer Portfolio
+# **💼 Aman Portfolio**
 
-<div align="center">
-
-### Full Stack Developer | Software Engineer | AI Enthusiast
-
-A premium, high-performance personal portfolio built to showcase my technical expertise, real-world projects, work experience, and passion for creating modern digital products.
-
-[🌐 Live Demo](https://your-live-link.com) • [💼 LinkedIn](https://linkedin.com/in/your-linkedin) • [💻 GitHub](https://github.com/Aryan2005singh)
-
-</div>
+A modern, visually polished personal portfolio built using **React + Vite**, featuring smooth animations, responsive design, and a clean UI.
+This portfolio highlights my work, experience, skills, and projects in a minimal yet impactful way.
 
 ---
 
-## 📖 Overview
+## 🚀 **Tech Stack**
 
-This portfolio is a modern developer showcase crafted with a focus on **performance, responsiveness, clean UI architecture, and engaging user interactions**.
-
-It highlights my journey as a Computer Science Engineering student, featuring professional experience, featured projects, technical skills, and AI-driven development work.
-
-Designed with a futuristic aesthetic and premium animations, this portfolio represents both my engineering mindset and frontend craftsmanship.
-
----
-
-## ✨ Key Features
-
-### 🎨 Premium UI/UX Experience
-- Futuristic dark theme design
-- Glassmorphism-inspired interface
-- Gradient visual accents
-- Smooth modern layout
-- Clean typography and hierarchy
-
-### ⚡ Advanced Animations
-Powered with **GSAP** for immersive interactions:
-
-- Scroll-triggered animations
-- Smooth transitions
-- Interactive hover effects
-- Dynamic motion design
-
-### 📱 Fully Responsive
-Optimized across all major screen sizes:
-
-✅ Desktop  
-✅ Laptop  
-✅ Tablet  
-✅ Mobile  
-
-### 👨‍💻 Professional Portfolio Sections
-Structured for recruiter-friendly navigation:
-
-- Hero Landing Section
-- About Me
-- Work Experience
-- Featured Projects
-- Technical Skills
-- Additional Expertise
-- Contact Section
-- Social Links Footer
-
-### 📂 Featured Project Showcase
-Each project includes:
-
-- Live project demo
-- GitHub source code
-- Tech stack used
-- Real-world use case descriptions
-
-### 📄 Resume Access
-Integrated downloadable resume functionality for quick recruiter access.
-
-### 📬 Contact Integration
-Professional communication channels including:
-
-- Email
-- Phone
-- LinkedIn
-- GitHub
-- Contact Form
-
-### 🚀 Performance Optimized
-Built using **Vite** for:
-
-- Faster build performance
-- Optimized production deployment
-- Smooth developer workflow
+* **React.js**
+* **Vite**
+* **Tailwind CSS**
+* **GSAP Animations**
+* **Lucide Icons**
 
 ---
 
-# 🛠 Tech Stack
+## 🎯 **Features**
 
-<div align="center">
+### ✅ Fully Responsive
 
-| Frontend | Backend | Database | Tools & APIs |
-|--------|---------|----------|-------------|
-| React.js | FastAPI | MongoDB | Git |
-| TypeScript | Node.js | PostgreSQL | GitHub |
-| Tailwind CSS | Express.js | MySQL | VS Code |
-| JavaScript | Python | Oracle | Gemini API |
-| GSAP | REST APIs |  | Lucide React |
+Looks clean on **mobile, tablet, and desktop**.
 
-</div>
+### ✅ GSAP Smooth Animations
 
----
+Scrolling, fade-ins, hover effects — everything feels premium.
 
-# 📸 Portfolio Preview
+### ✅ Clean & Modern UI
 
-<div align="center">
+Glassmorphism + gradient accents + minimal layout.
 
-![Portfolio Preview](https://github.com/Aryan2005singh/YOUR-REPO-NAME/blob/main/screenshot.png)
+### ✅ Downloadable Resume Button
 
-</div>
+One-click resume download integrated.
 
----
+### ✅ Portfolio Sections
 
-# 💼 Featured Projects
-
-## 🎯 Career Pilot AI
-AI-powered interview preparation platform designed to help users improve hiring readiness.
-
-### Features:
-- Resume analysis
-- AI mock interviews
-- Personalized feedback
-- Career recommendations
-
-**Tech Stack:**  
-React • Node.js • MongoDB • Express • Gemini API
+* About Me
+* Skills
+* Projects
+* Contact
+* Stats section
 
 ---
 
-## ⛳ SidCup Family Golf Website
-Modern animated frontend project inspired by premium web experiences.
+## 📸 **Preview**
 
-### Features:
-- Interactive animations
-- Smooth scrolling
-- Responsive layout
-- Premium visual effects
+## 🔥 Portfolio Preview
 
-**Tech Stack:**  
-HTML • CSS • JavaScript • GSAP
+![Portfolio Screenshot](https://github.com/Aryan2005singh/Aryan-Portfolio/blob/ea8a916b4c844933b7276542d4af03eb538da28c/screenshot.png)
 
----
 
-## 🧠 CodeQA
-AI-powered debugging and code explanation platform.
-
-### Features:
-- Code upload support
-- Bug detection
-- Fix suggestions
-- Line-by-line explanation
-- AI code understanding
-
-**Tech Stack:**  
-React • TypeScript • FastAPI • PostgreSQL • Gemini API
+```
+/assets/preview.png
+```
 
 ---
 
-# ⚙️ Installation & Setup
+## 📦 **Installation & Setup**
 
-## Clone Repository
+### Clone the repo:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-cd YOUR-REPO-NAME
+git clone https://github.com/Aryan2005singh/Aryan-Portfolio.git
+cd Aryan-Portfolio
+```
+
+### Install dependencies:
+
+```bash
+npm install
+```
+
+### Run development server:
+
+```bash
+npm run dev
+```
+
+### Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 🌐 **Live Demo**
+
+*(https://aryanwebfolio.netlify.app/)*
+
+---
+
+## 🤝 **Contact**
+
+If you want to collaborate or discuss a project:
+
+* **Email**: amansinghania@gmail.com
+* **GitHub**: [https://github.com/Aman25427](https://github.com/Aman25427)
+* **LinkedIn**: *(https://www.linkedin.com/in/aman-singhania-449b44271/)*
+
+---
+
+## ⭐ **Support**
+
+If you like this portfolio, consider giving it a **star ⭐ on GitHub**.
+Helps a lot.
