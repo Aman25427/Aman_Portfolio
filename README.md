@@ -1,47 +1,54 @@
-# 💼 Aman Kumar Singhania Portfolio
+# 🚀 Aman Kumar Singhania — Developer Portfolio
 
-A modern, high-performance personal portfolio website built using **React + TypeScript + Vite**, designed to showcase my projects, technical skills, work experience, and professional journey through a premium user interface and smooth interactive animations.
+<div align="center">
 
-This portfolio reflects my passion for building scalable web applications, clean frontend experiences, and AI-powered digital solutions.
+### Full Stack Developer | Software Engineer | AI Enthusiast
 
----
+A premium, high-performance personal portfolio built to showcase my technical expertise, real-world projects, work experience, and passion for creating modern digital products.
 
-## 🚀 Tech Stack
+[🌐 Live Demo](https://your-live-link.com) • [💼 LinkedIn](https://linkedin.com/in/your-linkedin) • [💻 GitHub](https://github.com/Aryan2005singh)
 
-- **React.js**
-- **TypeScript**
-- **Vite**
-- **Tailwind CSS**
-- **GSAP**
-- **Lucide React**
-- **FastAPI**
-- **JavaScript**
+</div>
 
 ---
 
-## ✨ Features
+## 📖 Overview
 
-### 🎨 Modern Premium UI
-Built with a futuristic dark theme, glassmorphism design, gradient accents, and a clean visual hierarchy for an engaging user experience.
+This portfolio is a modern developer showcase crafted with a focus on **performance, responsiveness, clean UI architecture, and engaging user interactions**.
 
-### 📱 Fully Responsive Design
-Optimized for seamless performance across:
+It highlights my journey as a Computer Science Engineering student, featuring professional experience, featured projects, technical skills, and AI-driven development work.
 
-- Desktop
-- Tablet
-- Mobile Devices
+Designed with a futuristic aesthetic and premium animations, this portfolio represents both my engineering mindset and frontend craftsmanship.
 
-### ⚡ Smooth GSAP Animations
-Interactive motion effects including:
+---
 
-- Scroll animations
-- Fade transitions
-- Hover interactions
-- Smooth UI movement
+## ✨ Key Features
+
+### 🎨 Premium UI/UX Experience
+- Futuristic dark theme design
+- Glassmorphism-inspired interface
+- Gradient visual accents
+- Smooth modern layout
+- Clean typography and hierarchy
+
+### ⚡ Advanced Animations
+Powered with **GSAP** for immersive interactions:
+
+- Scroll-triggered animations
+- Smooth transitions
+- Interactive hover effects
+- Dynamic motion design
+
+### 📱 Fully Responsive
+Optimized across all major screen sizes:
+
+✅ Desktop  
+✅ Laptop  
+✅ Tablet  
+✅ Mobile  
 
 ### 👨‍💻 Professional Portfolio Sections
-
-Includes dedicated sections for:
+Structured for recruiter-friendly navigation:
 
 - Hero Landing Section
 - About Me
@@ -49,44 +56,113 @@ Includes dedicated sections for:
 - Featured Projects
 - Technical Skills
 - Additional Expertise
-- Contact Form
-- Footer Navigation
+- Contact Section
+- Social Links Footer
 
-### 📂 Featured Projects Showcase
-Highlighted project cards with:
+### 📂 Featured Project Showcase
+Each project includes:
 
-- Live Demo Links
-- GitHub Repository Access
-- Technology Stack Overview
-- Project Descriptions
+- Live project demo
+- GitHub source code
+- Tech stack used
+- Real-world use case descriptions
 
-### 📄 Resume Download
-Integrated downloadable resume functionality for recruiters and hiring teams.
+### 📄 Resume Access
+Integrated downloadable resume functionality for quick recruiter access.
 
 ### 📬 Contact Integration
-Professional contact section with:
+Professional communication channels including:
 
 - Email
 - Phone
-- Location
-- Social Media Links
+- LinkedIn
+- GitHub
 - Contact Form
 
 ### 🚀 Performance Optimized
-Powered by **Vite** for fast development workflow and optimized production deployment.
+Built using **Vite** for:
+
+- Faster build performance
+- Optimized production deployment
+- Smooth developer workflow
 
 ---
 
-## 📸 Portfolio Preview
+# 🛠 Tech Stack
 
-![Portfolio Screenshot](https://github.com/Aryan2005singh/Aman-Portfolio/blob/main/screenshot.png)
+<div align="center">
+
+| Frontend | Backend | Database | Tools & APIs |
+|--------|---------|----------|-------------|
+| React.js | FastAPI | MongoDB | Git |
+| TypeScript | Node.js | PostgreSQL | GitHub |
+| Tailwind CSS | Express.js | MySQL | VS Code |
+| JavaScript | Python | Oracle | Gemini API |
+| GSAP | REST APIs |  | Lucide React |
+
+</div>
 
 ---
 
-## 📦 Installation & Setup
+# 📸 Portfolio Preview
 
-### Clone Repository
+<div align="center">
+
+![Portfolio Preview](https://github.com/Aryan2005singh/YOUR-REPO-NAME/blob/main/screenshot.png)
+
+</div>
+
+---
+
+# 💼 Featured Projects
+
+## 🎯 Career Pilot AI
+AI-powered interview preparation platform designed to help users improve hiring readiness.
+
+### Features:
+- Resume analysis
+- AI mock interviews
+- Personalized feedback
+- Career recommendations
+
+**Tech Stack:**  
+React • Node.js • MongoDB • Express • Gemini API
+
+---
+
+## ⛳ SidCup Family Golf Website
+Modern animated frontend project inspired by premium web experiences.
+
+### Features:
+- Interactive animations
+- Smooth scrolling
+- Responsive layout
+- Premium visual effects
+
+**Tech Stack:**  
+HTML • CSS • JavaScript • GSAP
+
+---
+
+## 🧠 CodeQA
+AI-powered debugging and code explanation platform.
+
+### Features:
+- Code upload support
+- Bug detection
+- Fix suggestions
+- Line-by-line explanation
+- AI code understanding
+
+**Tech Stack:**  
+React • TypeScript • FastAPI • PostgreSQL • Gemini API
+
+---
+
+# ⚙️ Installation & Setup
+
+## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
-cd YOUR-REPOSITORY-NAME
+git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+cd YOUR-REPO-NAME
