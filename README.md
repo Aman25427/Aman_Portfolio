@@ -47,7 +47,7 @@ One-click resume download integrated.
 
 ## 🔥 Portfolio Preview
 
-![Portfolio Screenshot]()
+![Portfolio Screenshot](https://github.com/Aman25427/Aman_Portfolio/blob/main/screenshot.png)
 
 
 ```
@@ -61,8 +61,8 @@ One-click resume download integrated.
 ### Clone the repo:
 
 ```bash
-git clone https://github.com/Aryan2005singh/Aryan-Portfolio.git
-cd Aryan-Portfolio
+git clone https://github.com/Aman25427/Aman_Portfolio.git
+cd Aman_Portfolio
 ```
 
 ### Install dependencies:
