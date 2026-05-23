@@ -9,28 +9,31 @@ gsap.registerPlugin(ScrollTrigger);
 const projects = [
   {
     title: "Career-Pilot-AI",
-    description: "AI-powered interview platform built with the MERN stack that generates role-specific interview questions through resume parsing and prompt engineering, with real-time AI evaluation, feedback, scoring, and performance insights.",
+    description:
+      "AI-powered interview platform built with the MERN stack that generates role-specific interview questions through resume parsing and prompt engineering, with real-time AI evaluation, feedback, scoring, and performance insights.",
     techStack: ["React", "Node.js", "MongoDB", "OpenAI API", "Express"],
     github: "https://github.com/Aman25427/Career-Pilot-AI",
     demo: "https://carrierpilot-ai.vercel.app/",
-    image: "🤖"
+    image: "🤖",
   },
   {
     title: "SidCup Family Golf Website",
-    description: "Modern, responsive website for a golf course featuring smooth animations, interactive elements, and optimized user experience with visually engaging design and seamless navigation.",
+    description:
+      "Modern, responsive website for a golf course featuring smooth animations, interactive elements, and optimized user experience with visually engaging design and seamless navigation.",
     techStack: ["HTML5", "CSS3", "JavaScript", "GSAP", "Responsive Design"],
     github: "https://github.com/Aman25427/SidCup-Family-Golf-Website",
     demo: "https://golfverse.netlify.app/",
-    image: "⛳"
+    image: "⛳",
   },
   {
     title: "CodeQA",
-    description: "RAG-powered AI web application that enables users to upload a codebase and ask natural language questions, delivering answers backed by exact code snippets, file paths, and line numbers for accurate code understanding.",
+    description:
+      "RAG-powered AI web application that enables users to upload a codebase and ask natural language questions, delivering answers backed by exact code snippets, file paths, and line numbers for accurate code understanding.",
     techStack: ["React", "TypeScript", "PostgreSQL", "pgvector", "Google Gemini"],
     github: "https://github.com/Aman25427/Codebase-Q-A-with-Proof",
     demo: "https://codebaseqap.netlify.app/",
-    image: "🧠"
-  }
+    image: "🧠",
+  },
 ];
 
 const ProjectsSection = () => {
@@ -40,11 +43,12 @@ const ProjectsSection = () => {
   useEffect(() => {
     const ctx = gsap.context(() => {
       cardsRef.current.forEach((card, index) => {
-        gsap.fromTo(card,
+        gsap.fromTo(
+          card,
           {
             opacity: 0,
             y: 60,
-            rotateX: 15
+            rotateX: 15,
           },
           {
             opacity: 1,
@@ -56,8 +60,8 @@ const ProjectsSection = () => {
             scrollTrigger: {
               trigger: card,
               start: "top 85%",
-              toggleActions: "play none none reverse"
-            }
+              toggleActions: "play none none reverse",
+            },
           }
         );
       });
@@ -67,14 +71,19 @@ const ProjectsSection = () => {
   }, []);
 
   return (
-    <section id="projects" ref={sectionRef} className="section-padding bg-background-secondary/30">
+    <section
+      id="projects"
+      ref={sectionRef}
+      className="section-padding bg-background-secondary/30"
+    >
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
-            A collection of projects that showcase my skills and passion for development
+            A collection of projects that showcase my skills and passion for
+            development
           </p>
         </div>
 
@@ -87,7 +96,7 @@ const ProjectsSection = () => {
               }}
               className="glass-card rounded-xl overflow-hidden hover:scale-105 transition-all duration-300 group"
             >
-              {/* Project Image/Icon */}
+              {/* Project Icon */}
               <div className="relative h-48 bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
                 <div className="text-6xl group-hover:scale-110 transition-transform duration-300">
                   {project.image}
@@ -95,12 +104,12 @@ const ProjectsSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
 
-              {/* Project Content */}
+              {/* Content */}
               <div className="p-4 sm:p-6">
                 <h3 className="text-lg sm:text-xl font-bold mb-3 group-hover:text-primary transition-colors">
                   {project.title}
                 </h3>
-                
+
                 <p className="text-muted-foreground mb-4 leading-relaxed text-sm sm:text-base">
                   {project.description}
                 </p>
@@ -117,49 +126,57 @@ const ProjectsSection = () => {
                   ))}
                 </div>
 
-                {/* Action Buttons */}
+                {/* Buttons */}
                 <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-3">
-                  <Button
-                    variant="neon"
-                    size="sm"
-                    asChild
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex-1"
                   >
-                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                    <Button
+                      variant="neon"
+                      size="sm"
+                      className="w-full"
+                    >
                       <Github className="w-4 h-4 mr-2" />
                       Code
-                    </a>
-                  </Button>
-                  
-                  <Button
-                    variant="glass"
-                    size="sm"
-                    asChild
+                    </Button>
+                  </a>
+
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex-1"
                   >
-                    <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                    <Button
+                      variant="glass"
+                      size="sm"
+                      className="w-full"
+                    >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Demo
-                    </a>
-                  </Button>
+                    </Button>
+                  </a>
                 </div>
               </div>
             </div>
           ))}
         </div>
 
-        {/* View More Button */}
+        {/* View More */}
         <div className="text-center mt-12">
-          <Button
-            variant="neon-secondary"
-            size="lg"
-            asChild
+          <a
+            href="https://github.com/Aman25427"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <a href="https://github.com/Aman25427" target="_blank" rel="noopener noreferrer">
+            <Button variant="neon-secondary" size="lg">
               <Github className="w-5 h-5 mr-2" />
               View All Projects on GitHub
-            </a>
-          </Button>
+            </Button>
+          </a>
         </div>
       </div>
     </section>
