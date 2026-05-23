@@ -82,8 +82,7 @@ const ProjectsSection = () => {
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
-            A collection of projects that showcase my skills and passion for
-            development
+            A collection of projects that showcase my skills and passion for development
           </p>
         </div>
 
@@ -96,16 +95,13 @@ const ProjectsSection = () => {
               }}
               className="glass-card rounded-xl overflow-hidden hover:scale-105 transition-all duration-300 group"
             >
-              {/* Project Icon */}
               <div className="relative h-48 bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
                 <div className="text-6xl group-hover:scale-110 transition-transform duration-300">
                   {project.image}
                 </div>
-                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
               </div>
 
-              {/* Content */}
-              <div className="p-4 sm:p-6 relative z-10">
+              <div className="p-4 sm:p-6">
                 <h3 className="text-lg sm:text-xl font-bold mb-3 group-hover:text-primary transition-colors">
                   {project.title}
                 </h3>
@@ -114,7 +110,6 @@ const ProjectsSection = () => {
                   {project.description}
                 </p>
 
-                {/* Tech Stack */}
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.techStack.map((tech, techIndex) => (
                     <span
@@ -126,56 +121,36 @@ const ProjectsSection = () => {
                   ))}
                 </div>
 
-                {/* Buttons */}
                 <div className="flex flex-col sm:flex-row gap-3">
-                  <Button
-                    asChild
-                    variant="neon"
-                    size="sm"
-                    className="w-full flex-1"
+                  <button
+                    onClick={() => window.open(project.github, "_blank")}
+                    className="w-full flex-1 inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium h-9 px-3 bg-gradient-to-r from-cyan-400 to-pink-500 text-black hover:opacity-90 transition"
                   >
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Github className="w-4 h-4 mr-2" />
-                      Code
-                    </a>
-                  </Button>
+                    <Github className="w-4 h-4" />
+                    Code
+                  </button>
 
-                  <Button
-                    asChild
-                    variant="glass"
-                    size="sm"
-                    className="w-full flex-1"
+                  <button
+                    onClick={() => window.open(project.demo, "_blank")}
+                    className="w-full flex-1 inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium h-9 px-3 border border-white/20 bg-white/5 text-white hover:bg-white/10 transition"
                   >
-                    <a
-                      href={project.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      Demo
-                    </a>
-                  </Button>
+                    <ExternalLink className="w-4 h-4" />
+                    Demo
+                  </button>
                 </div>
               </div>
             </div>
           ))}
         </div>
 
-        {/* View More */}
         <div className="text-center mt-12">
-          <Button asChild variant="neon-secondary" size="lg">
-            <a
-              href="https://github.com/Aman25427"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Github className="w-5 h-5 mr-2" />
-              View All Projects on GitHub
-            </a>
+          <Button
+            variant="neon-secondary"
+            size="lg"
+            onClick={() => window.open("https://github.com/Aman25427", "_blank")}
+          >
+            <Github className="w-5 h-5 mr-2" />
+            View All Projects on GitHub
           </Button>
         </div>
       </div>
