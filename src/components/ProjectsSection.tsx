@@ -12,7 +12,7 @@ const projects = [
     description: "AI-powered interview platform built with the MERN stack that generates role-specific interview questions through resume parsing and prompt engineering, with real-time AI evaluation, feedback, scoring, and performance insights.",
     techStack: ["React", "Node.js", "MongoDB", "OpenAI API", "Express"],
     github: "https://github.com/Aman25427/Career-Pilot-AI",
-    demo: "#",
+    demo: "https://carrierpilot-ai.vercel.app",
     image: "🤖"
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     description: "Modern, responsive website for a golf course featuring smooth animations, interactive elements, and optimized user experience with visually engaging design and seamless navigation.",
     techStack: ["HTML5", "CSS3", "JavaScript", "GSAP", "Responsive Design"],
     github: "https://github.com/Aman25427/SidCup-Family-Golf-Website",
-    demo: "#",
+    demo: "https://golfverse.netlify.app",
     image: "⛳"
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     description: "RAG-powered AI web application that enables users to upload a codebase and ask natural language questions, delivering answers backed by exact code snippets, file paths, and line numbers for accurate code understanding.",
     techStack: ["React", "TypeScript", "PostgreSQL", "pgvector", "Google Gemini"],
     github: "https://github.com/Aman25427/Codebase-Q-A-with-Proof",
-    demo: "YOUR_LIVE_PROJECT_LINK",
+    demo: "https://codebaseqap.netlify.app",
     image: "🧠"
   }
 ];
