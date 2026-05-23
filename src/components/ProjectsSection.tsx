@@ -101,11 +101,11 @@ const ProjectsSection = () => {
                 <div className="text-6xl group-hover:scale-110 transition-transform duration-300">
                   {project.image}
                 </div>
-                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
               </div>
 
               {/* Content */}
-              <div className="p-4 sm:p-6">
+              <div className="p-4 sm:p-6 relative z-10">
                 <h3 className="text-lg sm:text-xl font-bold mb-3 group-hover:text-primary transition-colors">
                   {project.title}
                 </h3>
@@ -127,38 +127,38 @@ const ProjectsSection = () => {
                 </div>
 
                 {/* Buttons */}
-                <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-3">
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex-1"
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <Button
+                    asChild
+                    variant="neon"
+                    size="sm"
+                    className="w-full flex-1"
                   >
-                    <Button
-                      variant="neon"
-                      size="sm"
-                      className="w-full"
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <Github className="w-4 h-4 mr-2" />
                       Code
-                    </Button>
-                  </a>
+                    </a>
+                  </Button>
 
-                  <a
-                    href={project.demo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex-1"
+                  <Button
+                    asChild
+                    variant="glass"
+                    size="sm"
+                    className="w-full flex-1"
                   >
-                    <Button
-                      variant="glass"
-                      size="sm"
-                      className="w-full"
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Demo
-                    </Button>
-                  </a>
+                    </a>
+                  </Button>
                 </div>
               </div>
             </div>
@@ -167,16 +167,16 @@ const ProjectsSection = () => {
 
         {/* View More */}
         <div className="text-center mt-12">
-          <a
-            href="https://github.com/Aman25427"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button variant="neon-secondary" size="lg">
+          <Button asChild variant="neon-secondary" size="lg">
+            <a
+              href="https://github.com/Aman25427"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Github className="w-5 h-5 mr-2" />
               View All Projects on GitHub
-            </Button>
-          </a>
+            </a>
+          </Button>
         </div>
       </div>
     </section>
