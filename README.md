@@ -87,7 +87,7 @@ npm run build
 
 ## 🌐 **Live Demo**
 
-*(https://aryanwebfolio.netlify.app/)*
+*(https://aman-portfolio-tawny.vercel.app/)*
 
 ---
 
